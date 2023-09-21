@@ -9,6 +9,12 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            /* Gradient background */
+            background: linear-gradient(to bottom, #003c80, #ce5d00);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        
             background-color: #f8f8f8;
         }
 
@@ -28,13 +34,13 @@
         nav ul {
             list-style: none;
             padding: 0;
-            color: #ce5d00;
+            color: #000000;
         }
 
         nav ul li {
             display: inline;
             margin-right: 20px;
-            color: #ce5d00;
+            color: #040201;
         }
 
         .container {
@@ -42,7 +48,10 @@
             margin: 20px auto;
             padding: 20px;
             background-color: white;
+            
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 2px solid black;
         }
 
         h1 {
@@ -75,6 +84,7 @@
 
         .features h2 {
             color: #003c80;
+            text-decoration: underline;
         }
 
         .features ul {
@@ -94,6 +104,20 @@
 
         #contact p {
             margin: 10px 0;
+        }
+
+        
+        
+        #contact iframe {
+            
+            max-width: 800px;
+            margin: 5px auto;
+            padding: 3px;
+            background-color: rgb(0, 0, 0);
+            
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 2px solid rgb(0, 0, 0);
         }
 
         footer {
@@ -150,7 +174,8 @@
 
         /* Hover effect for anchor links */
         nav a:hover {
-            background-color: #30b304;
+            background-color: #04bc1fe1;
+            border: 2px solid rgb(250, 250, 250);
         }
 
         /* Adjust spacing between list items */
@@ -162,7 +187,7 @@
             margin: 0;
             padding: 0;
             /* Gradient background */
-            background: linear-gradient(to bottom, #003c80, #ce5d00);
+            background: linear-gradient(to bottom, #003c80,#ffffff, #006d1f);
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
@@ -183,25 +208,25 @@
     <nav>
         <ul>
             <li><a href="#home" target="_blank">
-                <button>Home</button>
+                <button><b>Home</b></button>
             </a></li>
                
             <li><a href="services.html" target="_blank">
-                <button>Services</button>
+                <button><b>Services</b></button>
             </a></li>
             
-            <li><a href="https://srilaxmionlineservices.godaddysites.com/" target="_blank">
-                <button>Contact Us</button></a></li>
+            <li><a href="#contact" target="_blank">
+                <button><b>Contact Us</b></button></a></li>
         </ul>
     </nav>
     <div class="container">
         <section id="home">
             <h2>Welcome to Sri Laxmi Online Services</h2>
             <p>Your Trusted Center for Digital Services</p>
-            <a href="https://srilaxmionlineservices.godaddysites.com/"><button>Contact Us</button></a>
+            <a href="https://srilaxmionlineservices.godaddysites.com/"><button><b>Contact Us</b></button></a>
         </section>
         <section id="services" class="features">
-            <h2>Our Top Services</h2>
+            <h2>OUR TOP SERVICES: </h2>
             <ul>
                 <li><strong>Railway Ticket Booking:</strong> Convenient and Fast IRCTC Ticket Booking.</li>
                 <li><strong>PMGDISHA:</strong> Empower yourself with Digital Literacy through PMGDISHA Training.</li>
@@ -209,6 +234,7 @@
                 <li><strong>AEPS:</strong> Secure Aadhaar-enabled Payment System for Transactions.</li>
                 <li><strong>Axis Bank Business Correspondent:</strong> Open Accounts and Transfer Funds with Ease.</li>
                 <li><strong>Print and Xerox:</strong> High-Quality Printing, Xerox, and Lamination Services.</li>
+                <li><strong>PAN Services: </strong>New PAN Card Application or Correction in PAN</li>
             </ul>
         </section>
         <body>
@@ -229,12 +255,14 @@
             <p><strong>Email:</strong> srilaxmidigitalseva@gmail.com</p>
 
             <p><strong>Owner Information:</strong><br>Name: Suddala Prashanth Kumar<br>Qualification: BTech, Course on Computer Concepts Exam Certified</p>
-        </section>
-        <section>
-            <p>Google Map</p>
+            <p><b>Google Map Location</b></p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.4703298213976!2d78.65117447472984!3d18.280087176476812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcc571ffea9f811%3A0xfbf330fe08bc7b5!2sSri%20Laxmi%20Online%20Services!5e0!3m2!1sen!2sin!4v1695296324152!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+            <p><i>"This Website is in Developing Stage" - Contact Prashanth Kumar for More Information</i></p>
         </section>
+        
     </div>
+
     <footer>
         <p>&copy; 2023 Sri Laxmi Online Services - All Rights Reserved.</p>
     </footer>
